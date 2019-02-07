@@ -1,0 +1,4 @@
+
+spring.application.name: tokenservice
+server:
+  port: 9900

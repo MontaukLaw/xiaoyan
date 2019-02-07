@@ -1,4 +1,4 @@
 zuul:
   routes:
     xiaoyanapi: /api/**
-    eurekaclient: /token/**
+    tokenservice: /token/**
