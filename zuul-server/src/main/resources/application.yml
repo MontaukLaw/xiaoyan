@@ -2,3 +2,4 @@ zuul:
   routes:
     xiaoyanapi: /api/**
     tokenservice: /token/**
+  sensitive-headers: Cookie,Set-Cookie

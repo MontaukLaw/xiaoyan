@@ -2,3 +2,7 @@
 spring.application.name: tokenservice
 server:
   port: 9900
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8901/auth/user
