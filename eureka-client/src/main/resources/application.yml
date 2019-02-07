@@ -1,0 +1,7 @@
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+  client:
+    healthcheck:
+      enabled: true

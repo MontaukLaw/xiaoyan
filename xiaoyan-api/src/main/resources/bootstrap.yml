@@ -1,6 +1,6 @@
 spring:
   application:
-    name: configclient
+    name: xiaoyanapi
   profiles:
     active: default
   cloud:

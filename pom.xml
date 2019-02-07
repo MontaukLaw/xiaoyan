@@ -21,6 +21,9 @@
 
     <modules>
         <module>config-service</module>
+        <module>eureka-client</module>
+        <module>eureka-server</module>
+        <module>xiaoyan-api</module>
     </modules>
 
     <build>

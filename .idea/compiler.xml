@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-service" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="token-service" />
         <module name="xiaoyan-api" />
+        <module name="zuul-server" />
       </profile>
     </annotationProcessing>
   </component>
