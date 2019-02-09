@@ -1,5 +1,7 @@
 package com.wulala.authservice;
 
+import com.wulala.authservice.config.ServiceConfig;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.core.authority.AuthorityUtils;
@@ -27,8 +29,8 @@ public class AuthServiceApplication {
     }
 
     public static void main(String[] args) {
+
         SpringApplication.run(AuthServiceApplication.class, args);
     }
-
 }
 

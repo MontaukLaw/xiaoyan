@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/MontaukLaw/config-repo
-          searchPaths: licensingservice,paginationdemo,configclient,xiaoyanapi
+          searchPaths: licensingservice,paginationdemo,configclient,xiaoyanapi,authservice,jpush
           username: zunly@hotmail.com
           password: W0wisshit!

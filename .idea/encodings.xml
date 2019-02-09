@@ -3,9 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bg-console" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpush" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qr-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/token-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaoyan-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />

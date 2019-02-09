@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jpush
+  profiles:
+    active: default
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888

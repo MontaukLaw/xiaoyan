@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<div id="info"></div>
+<div id="jumping"></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        console.info('appversion is ' + navigator.appVersion);
+
+        var appVerInfo = navigator.appVersion;
+
+        var platform = androidOrApple(appVerInfo);
+
+        $("#info").html('' + platform);
+
+        if (platform=='PC'){
+            $("#jumping").html('正跳转到xxxx');
+        }
+        if(platform=='iPhone'){
+            $("#jumping").html('正跳转到App Store');
+        }
+        if(platform=='Android'){
+            $("#jumping").html('正跳转到应用宝');
+        }
+    });
+
+    function androidOrApple(appVer) {
+        var ifIphone = appVer.search('iPhone');
+        var result = '';
+        if (ifIphone > 0) {
+            //console.info('iphone');
+            result = 'iPhone';
+
+        }
+        var ifPC = appVer.search('Windows');
+        if (ifPC > 0) {
+            //console.info('PC');
+            result = 'PC';
+        }
+
+        var ifAndroid=appVer.search('Android');
+        if(ifAndroid>0){
+            result = 'Android';
+        }
+        return result;
+    }
+</script>
+</body>
+</html>
