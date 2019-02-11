@@ -22,13 +22,13 @@
 
         $("#info").html('' + platform);
 
-        if (platform=='PC'){
+        if (platform == 'PC') {
             $("#jumping").html('正跳转到xxxx');
         }
-        if(platform=='iPhone'){
+        if (platform == 'iPhone') {
             $("#jumping").html('正跳转到App Store');
         }
-        if(platform=='Android'){
+        if (platform == 'Android') {
             $("#jumping").html('正跳转到应用宝');
         }
     });
@@ -47,8 +47,8 @@
             result = 'PC';
         }
 
-        var ifAndroid=appVer.search('Android');
-        if(ifAndroid>0){
+        var ifAndroid = appVer.search('Android');
+        if (ifAndroid > 0) {
             result = 'Android';
         }
         return result;

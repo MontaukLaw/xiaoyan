@@ -3,49 +3,49 @@ package com.wulala.bgconsole.domain.model;
 import java.util.Date;
 
 public class Developer {
-    private String ID, NAME;
-    private int TYPE;
-    private Date CREATE_TIME;
+    private String id, name;
+    private int type;
+    private Date createTime;
 
-    public Date getCREATE_TIME() {
-        return CREATE_TIME;
+    public String getId() {
+        return id;
     }
 
-    public void setCREATE_TIME(Date CREATE_TIME) {
-        this.CREATE_TIME = CREATE_TIME;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getID() {
-        return ID;
+    public String getName() {
+        return name;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getNAME() {
-        return NAME;
+    public int getType() {
+        return type;
     }
 
-    public void setNAME(String NAME) {
-        this.NAME = NAME;
+    public void setType(int type) {
+        this.type = type;
     }
 
-    public int getTYPE() {
-        return TYPE;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setTYPE(int TYPE) {
-        this.TYPE = TYPE;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     @Override
     public String toString() {
         return "Developer{" +
-                "ID='" + ID + '\'' +
-                ", NAME='" + NAME + '\'' +
-                ", TYPE=" + TYPE +
-                ", CREATE_TIME=" + CREATE_TIME +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", type=" + type +
+                ", createTime=" + createTime +
                 '}';
     }
 }

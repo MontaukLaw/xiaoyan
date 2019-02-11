@@ -1,5 +1,6 @@
 package com.wulala.bgconsole;
 
+import com.alibaba.fastjson.JSON;
 import com.wulala.bgconsole.domain.model.Developer;
 import com.wulala.bgconsole.mapper.DeveloperMapper;
 import com.wulala.bgconsole.service.DeveloperService;
@@ -33,7 +34,36 @@ public class BgConsoleApplicationTests {
         List<Developer> developers = developerService.listAll();
 
         //List<Developer> developers = developerMapper.listAll();
-        logger.debug("result is " + developers.toString());
+        logger.debug("result is " + JSON.toJSONString(developers.toString()));
+    }
+
+    @Test
+    public void testAddDev() {
+        for (int i = 0; i < 10; i++) {
+            Developer developer = new Developer();
+            developer.setName("tester" + i);
+            developer.setType(i % 2 + 1);
+            int result = developerService.addDeveloper(developer);
+            System.out.println(result);
+        }
+    }
+
+    @Test
+    public void testPatchDeveloper() {
+        Developer developer = new Developer();
+        developer.setId("c4ee7f9a-2c86-11e9-9fad-525400820e38");
+        developer.setName("tester_patched");
+        developer.setType(1);
+        int result = developerService.updateDeveloper(developer);
+        System.out.println(result);
+    }
+
+    @Test
+    public void testDeleteDev() {
+        Developer developer = new Developer();
+        developer.setId("c511e22e-2c86-11e9-9fad-525400820e38");
+        int result = developerService.removeDeveloper(developer);
+        logger.debug("" + result);
     }
 
 }

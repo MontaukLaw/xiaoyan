@@ -7,5 +7,12 @@ import java.util.List;
 
 @Mapper
 public interface DeveloperMapper {
+
     List<Developer> listAll();
+
+    int addDeveloper(Developer developer);
+
+    int updateDeveloper(Developer developer);
+
+    int removeDeveloper(Developer developer);
 }

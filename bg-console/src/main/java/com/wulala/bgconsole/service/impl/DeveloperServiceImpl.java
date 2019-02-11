@@ -19,4 +19,19 @@ public class DeveloperServiceImpl implements DeveloperService {
         return developerMapper.listAll();
     }
 
+    @Override
+    public int addDeveloper(Developer developer) {
+        return developerMapper.addDeveloper(developer);
+    }
+
+    @Override
+    public int updateDeveloper(Developer developer){
+        return developerMapper.updateDeveloper(developer);
+    }
+
+    @Override
+    public int removeDeveloper(Developer developer){
+        return developerMapper.removeDeveloper(developer);
+    }
+
 }

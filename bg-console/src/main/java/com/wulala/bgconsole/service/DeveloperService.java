@@ -9,4 +9,11 @@ import java.util.List;
 public interface DeveloperService {
 
     List<Developer> listAll();
+
+    int addDeveloper(Developer developer);
+
+    int updateDeveloper(Developer developer);
+
+    int removeDeveloper(Developer developer);
+
 }
