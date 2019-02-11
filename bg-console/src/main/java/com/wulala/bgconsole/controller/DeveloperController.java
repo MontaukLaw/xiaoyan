@@ -33,4 +33,12 @@ public class DeveloperController {
 
     }
 
+    @RequestMapping(value="/developers/{id}",method = RequestMethod.DELETE)
+    public int deleteDeveloper(@PathVariable String id){
+        Developer developer=new Developer();
+        developer.setId(id);
+        int result=developerService.removeDeveloper(developer);
+        return result;
+    }
+
 }
