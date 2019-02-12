@@ -1,6 +1,6 @@
 package com.wulala.bgconsole.mapper;
 
-import com.wulala.bgconsole.domain.model.Developer;
+import com.wulala.bgconsole.entity.Developer;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

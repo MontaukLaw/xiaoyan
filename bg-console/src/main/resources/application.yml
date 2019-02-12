@@ -13,7 +13,7 @@ spring.datasource.url: jdbc:mysql://cdb-8vlvqayx.gz.tencentcdb.com:10094/bgconso
 spring.datasource.username: root
 spring.datasource.password: W0wisshit!
 
-mybatis.type-aliases-package: com.wulala.bgconsole.domain.model
+mybatis.type-aliases-package: com.wulala.bgconsole.entity
 #Mapper.xml所在的位置
 mybatis.mapper-locations: classpath:/mybatis/mapper/*.xml
 mybatis.config-location: classpath:/mybatis/mybatis-config.xml

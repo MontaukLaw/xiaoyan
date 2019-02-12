@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wulala.bgconsole.mapper.SkillMapper">
+    <resultMap id="SkillResultMap" type="Skill">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="description" property="description" jdbcType="CLOB"/>
+        <result column="rate" property="rate" jdbcType="INTEGER"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <association property="developer" columnPrefix="developer_"
+                     resultMap="com.wulala.bgconsole.mapper.DeveloperMapper.DeveloperResultMap"/>
+        <collection property="examples" columnPrefix="ex_" resultMap="com.wulala.bgconsole.mapper.SkillExampleMapper.skillExampleResultMap"/>
+
+    </resultMap>
+
+    <select id="listAll" resultMap="SkillResultMap">
+        select
+        skill.id id,skill.description description,skill.name,skill.rate,
+        skill.developer_id,skill.create_time,skill.update_time,
+        dev.id developer_id,
+        dev.name developer_name,dev.type developer_type, dev.create_time developer_create_time,
+        example.example ex_example,example.id ex_id,example.create_time ex_create_time,
+        example.update_time ex_update_time, example.skill_id ex_skill_id
+        from skills skill
+        join developers dev on skill.developer_id=dev.id
+        inner join skill_examples example on example.skill_id=skill.id
+        order by skill.create_time desc
+    </select>
+
+    <select id="getAllSkillName" resultMap="SkillResultMap">
+        select id,name from skills
+    </select>
+
+
+</mapper>

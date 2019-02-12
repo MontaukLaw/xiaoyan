@@ -1,4 +1,4 @@
-package com.wulala.bgconsole.domain.model;
+package com.wulala.bgconsole.entity;
 
 import java.util.Date;
 

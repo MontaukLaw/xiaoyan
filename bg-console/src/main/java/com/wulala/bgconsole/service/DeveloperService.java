@@ -1,6 +1,6 @@
 package com.wulala.bgconsole.service;
 
-import com.wulala.bgconsole.domain.model.Developer;
+import com.wulala.bgconsole.entity.Developer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
