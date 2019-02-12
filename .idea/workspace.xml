@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf58318-f3da-49bb-a97c-c047c9e52eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/config/MyTomcatConnectorCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/controller/DeveloperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/controller/DeveloperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,20 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/BgConsoleApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="380">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,17 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="139">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/controller/DeveloperController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state relative-caret-position="177">
+              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +75,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/config/MyTomcatConnectorCustomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="196">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#601#880#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/token-service/pom.xml" />
-        <option value="$PROJECT_DIR$/token-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/token-service/src/main/java/com/wulala/tokenservice/utils/UserContextFilter.java" />
         <option value="$PROJECT_DIR$/token-service/src/main/java/com/wulala/tokenservice/security/ResourceServerConfiguration.java" />
         <option value="$PROJECT_DIR$/token-service/src/main/java/com/wulala/tokenservice/TokenServiceApplication.java" />
@@ -162,8 +160,10 @@
         <option value="$PROJECT_DIR$/bg-web/pom.xml" />
         <option value="$PROJECT_DIR$/bg-web/src/main/resources/static/a" />
         <option value="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/domain/model/Developer.java" />
-        <option value="$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java" />
         <option value="$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml" />
+        <option value="$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java" />
+        <option value="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/config/TomcatEmbeddedServletContainerFactory.java" />
+        <option value="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/config/MyTomcatConnectorCustomizer.java" />
         <option value="$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/controller/DeveloperController.java" />
       </list>
     </option>
@@ -257,7 +257,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bgconsole" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="configservicedemo" type="b2602c69:ProjectViewProjectNode" />
@@ -395,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BgConsoleApplicationTests.testListAll">
+  <component name="RunManager" selected="JUnit.BgConsoleApplicationTests.testPatchDeveloper">
     <configuration name="BgConsoleApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bg-console" />
       <extension name="coverage">
@@ -572,10 +572,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BgConsoleApplicationTests.testPatchDeveloper" />
         <item itemvalue="JUnit.BgConsoleApplicationTests.testListAll" />
         <item itemvalue="JUnit.BgConsoleApplicationTests" />
         <item itemvalue="JUnit.BgConsoleApplicationTests.testDeleteDev" />
-        <item itemvalue="JUnit.BgConsoleApplicationTests.testPatchDeveloper" />
         <item itemvalue="JUnit.BgConsoleApplicationTests.restAddDev" />
       </list>
     </recent_temporary>
@@ -597,23 +597,11 @@
       <workItem from="1549626375489" duration="10185000" />
       <workItem from="1549685445122" duration="14172000" />
       <workItem from="1549760319197" duration="112000" />
-      <workItem from="1549760895826" duration="12245000" />
+      <workItem from="1549760895826" duration="18277000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.10 at 09h 23m 15s.xml">
-      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.10 at 09h 23m 45s.xml">
-      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.10 at 09h 24m 38s.xml">
-      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BgConsoleApplicationTests_testListAll - 2019.02.10 at 09h 26m 03s.xml">
-      <configuration name="BgConsoleApplicationTests.testListAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BgConsoleApplicationTests_testDeleteDev - 2019.02.10 at 09h 32m 41s.xml">
       <configuration name="BgConsoleApplicationTests.testDeleteDev" configurationId="JUnit" />
     </history-entry>
@@ -632,9 +620,21 @@
     <history-entry file="BgConsoleApplicationTests_testListAll - 2019.02.11 at 11h 27m 52s.xml">
       <configuration name="BgConsoleApplicationTests.testListAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.12 at 07h 54m 47s.xml">
+      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.12 at 07h 55m 40s.xml">
+      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.12 at 07h 57m 18s.xml">
+      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BgConsoleApplicationTests_testPatchDeveloper - 2019.02.12 at 07h 57m 43s.xml">
+      <configuration name="BgConsoleApplicationTests.testPatchDeveloper" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96488000" />
+    <option name="totallyTimeSpent" value="102520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="878" y="0" width="1501" height="1047" extended-state="0" />
@@ -676,20 +676,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.12.1/okhttp-3.12.1.jar!/okhttp3/OkHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1234">
-          <caret line="337" column="30" selection-start-line="337" selection-start-column="30" selection-end-line="337" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.12.1/okhttp-3.12.1.jar!/okhttp3/Headers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="96" column="37" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jpush/src/main/java/com/wulala/jpush/okhttp/NetworkUtil.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.12.1/okhttp-3.12.1.jar!/okhttp3/Request.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -997,38 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyan-api/src/main/java/com/wulala/xiaoyanapi/controller/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/BgConsoleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1046,13 +1004,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/BgConsoleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.5/tomcat-embed-core-8.5.5.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="415" column="50" lean-forward="true" selection-start-line="415" selection-start-column="50" selection-end-line="415" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/config/MyTomcatConnectorCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#601#880#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bg-console/src/test/java/com/wulala/bgconsole/BgConsoleApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bg-console/src/main/java/com/wulala/bgconsole/controller/DeveloperController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="177">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bg-console/src/main/resources/mybatis/mapper/DeveloperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>

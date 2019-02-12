@@ -28,7 +28,7 @@
             <if test="name != null">
                 name = #{name,jdbcType=VARCHAR},
             </if>
-            <if test="type != null">
+            <if test="type != 0">
                 type = #{type,jdbcType=INTEGER},
             </if>
         </set>

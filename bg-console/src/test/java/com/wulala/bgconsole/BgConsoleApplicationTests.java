@@ -51,9 +51,10 @@ public class BgConsoleApplicationTests {
     @Test
     public void testPatchDeveloper() {
         Developer developer = new Developer();
-        developer.setId("c4ee7f9a-2c86-11e9-9fad-525400820e38");
-        developer.setName("tester_patched");
-        developer.setType(1);
+        developer.setId("332ddbee-2e10-11e9-9fad-525400820e38");
+        developer.setName("patched");
+        System.out.println(developer);
+        //developer.setType(1);
         int result = developerService.updateDeveloper(developer);
         System.out.println(result);
     }
